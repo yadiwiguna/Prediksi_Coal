@@ -253,7 +253,7 @@ columns = list(data.keys())
 df = pd.DataFrame([data.values()],columns=columns)
 
 # load model
-with open('model_regresi_coal2.pkl', 'rb') as f:
+with open('model_regresi_coal.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Predict
