@@ -13,7 +13,7 @@ st.write(f"<h2 style='text-align: left; '>Product Type & Surveyor</h2>", unsafe_
 with st.container():
     col1, col2, = st.columns(2)
     with col1:
-            product_type = st.selectbox('Product Type',['E4700','E4900','E5000','WB'])
+            product_type = st.selectbox('Tipe Produk',['E4700','E4900','E5000','WB'])
 
     with col2:
             surveyor = st.selectbox('Surveyor',['GS', 'SC'])
